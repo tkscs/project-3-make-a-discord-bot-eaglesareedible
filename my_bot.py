@@ -12,7 +12,7 @@ This function will be called every time anyone says anything on a channel where 
 * You can have the bot respond differently to different users
 """
 currenttime=time.asctime(time.localtime())
-userInput=["bad", "no", "hello", "yes", "what is dodo's name", "how are you", 'what can you do', 'keo', "what time is it"]
+userInput=["bad", "no", "hello", "yes", "what is dodos name", "how are you", 'what can you do', 'keo', "what time is it"]
 botResponse=["That's bad!", "Aww, that's a shame", "Hi! I'm here.","Agreed","Dodo's name is Ido Tsoref. Google it!", "I'm good, how are you?","I can say hi when you say my name, or Keo's name, I can let you know how I'm doing, and I can tell you what time it is!", "haha, keo", f"{currenttime}"]
 
 ALPA = string.ascii_lowercase + " "
