@@ -49,7 +49,7 @@ def should_i_respond(user_message, user_name):
 
 def respond(user_message, user_name):
   currenttime=time.asctime(time.localtime())
-  botResponse=["That's bad!", "Aww, that's a shame", "Hi! I'm here.","Agreed","Dodo's name is Ido Tsoref. Google it!", "I'm good, how are you?","I can say hi when you say my name, or Keo's name, I can let you know how I'm doing, and I can tell you what time it is! And I can flip a coin", "haha, keo", f"{currenttime}", f"{coinflip()}", f"{slots()}"]
+  botResponse=["That's bad!", "Aww, that's a shame", "Hi! I'm here.","Agreed","Dodo's name is Ido Tsoref. Google it!", "I'm good, how are you?","I can say hi when you say my name, or Keo's name, I can let you know how I'm doing, I can tell you what time it is, I can flip a coin, and I can play slots!", "haha, keo", f"{currenttime}", f"{coinflip()}", f"{slots()}"]
   whitelisteed_user_message=""
   editeduser_message=user_message.lower()
   for char in editeduser_message:
